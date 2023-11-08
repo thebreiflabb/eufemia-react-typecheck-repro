@@ -1,0 +1,16 @@
+{
+  "name": "app-2",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dnb/eufemia": "10.9.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.70",
+    "@types/react-dom": "17.0.23",
+    "typescript": "5.1.6"
+  }
+}

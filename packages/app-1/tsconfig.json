@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
+    "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+    ],
+    "skipLibCheck": true,
+    "rootDir": "./"
+}
+}

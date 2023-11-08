@@ -1,0 +1,14 @@
+{
+  "name": "eufemia-react-typecheck-repro",
+  "scripts": {
+    "typecheck1": "pnpm --filter app-1 run typecheck",
+    "typecheck2": "pnpm --filter app-2 run typecheck"
+  },
+  "engines": {
+    "pnpm": "8.10.2"
+  },
+  "packageManager": "pnpm@8.10.2",
+  "workspaces": [
+    "packages/*"
+  ]
+}
